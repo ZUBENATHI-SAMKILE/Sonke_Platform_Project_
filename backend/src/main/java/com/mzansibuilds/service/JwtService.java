@@ -9,7 +9,7 @@ import java.util.Date;
 
 @Service
 public class JwtService {
-    @Value("${jwt.secret:your-secret-key-change-this-in-production}")
+    @Value("${jwt.secret:Sonke456}")
     private String jwtSecret;
 
     @Value("${jwt.expiration:86400000}")

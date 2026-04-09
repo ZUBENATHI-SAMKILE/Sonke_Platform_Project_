@@ -674,7 +674,7 @@
   overflow: hidden;
 }
 .celebCard::before {
-  content: '🎉';
+  content: '🎉';  /* For celebration i could not find the best i lucid Icon for this */
   position: absolute;
   top: 4px;
   right: 6px;

@@ -15,7 +15,6 @@ export function AppProvider({ children }) {
     }
   };
 
-  // Load user data from localStorage on app start
   useEffect(() => {
     const token = localStorage.getItem('token');
     const userData = localStorage.getItem('user');

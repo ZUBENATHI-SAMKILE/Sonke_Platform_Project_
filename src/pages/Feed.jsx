@@ -21,7 +21,6 @@ export default function Feed({ onOpenAddProject, onOpenMilestone, onNavigateToPr
 
   return (
     <div className={styles.mainLayout}>
-      {/* LEFT SIDEBAR */}
       <div className={styles.sidebar}>
         <div className={styles.sidebarCard}>
           <div className={styles.profileMini}>
@@ -69,7 +68,6 @@ export default function Feed({ onOpenAddProject, onOpenMilestone, onNavigateToPr
         </div>
       </div>
 
-      {/* MAIN FEED */}
       <div className={styles.feed}>
         <div className={styles.feedHeader}>
           <h2>What developers are building 🇿🇦</h2>
@@ -101,7 +99,7 @@ export default function Feed({ onOpenAddProject, onOpenMilestone, onNavigateToPr
         </div>
       </div>
 
-      {/* RIGHT SIDEBAR */}
+      
       <div className={styles.rightSidebar}>
         <div className={styles.sidebarCard + ' ' + styles.celebrationWall}>
           <h3><Sparkles size={16} style={{display: 'inline', marginRight: '6px'}} />Celebration Wall</h3>
