@@ -2,7 +2,7 @@
 
 A platform for South African developers to build and collaborate on projects in public. Built with React, Java Spring Boot, and PostgreSQL.
 
-# Live Demo (Render, Supabase, Vercel)
+# Live Demo (Render,takes 2-3 minutes to prepare backend), Supabase, Vercel)
 - https://sonke-platform-project.vercel.app/
 
 ## Technology Stack
