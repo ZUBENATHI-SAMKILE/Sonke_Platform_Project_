@@ -26,14 +26,6 @@ A platform for South African developers to build and collaborate on projects in 
 
 ## Getting Started
 
-### Deployment
-For Render, Supabase, and Vercel deployment instructions, see `DEPLOYMENT.md`.
-
-### Prerequisites
-- Node.js 18+ and npm
-- Java 21+
-- Maven 3.8+
-- Docker & Docker Compose
 
 ### Database Setup
 
