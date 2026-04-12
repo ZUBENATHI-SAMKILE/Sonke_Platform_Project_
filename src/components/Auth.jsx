@@ -1,7 +1,7 @@
 import { useState, useContext } from 'react';
 import { AppContext } from '../context/AppContext';
 import { authService } from '../services/api';
-import styles from '../styles/App.module.css';
+import styles from '../styles/Global.css';
 
 export default function Auth() {
   const { loginUser, registerUser } = useContext(AppContext);

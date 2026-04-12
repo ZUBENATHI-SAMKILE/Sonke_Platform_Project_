@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import styles from '../styles/App.module.css';
+import styles from '../styles/Global.css';
 import { Sparkles } from 'lucide-react';
 
 export function AddProjectModal({ isOpen, onClose, onSubmit }) {

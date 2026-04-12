@@ -1,7 +1,7 @@
 import { useContext, useState } from 'react';
 import { AppContext } from '../context/AppContext';
 import { initials, getAvatarColor } from '../utils/helpers';
-import styles from '../styles/App.module.css';
+import styles from '../styles/Global.css';
 
 export default function Navbar({ setPage, onOpenAddProject }) {
   const { currentUser, logoutUser } = useContext(AppContext);

@@ -6,7 +6,7 @@ import Feed from './pages/Feed';
 import Profile from './pages/Profile';
 import { AddProjectModal, MilestoneModal } from './components/Modals';
 import { projectService, userService } from './services/api';
-import styles from './styles/App.module.css';
+import styles from './styles/Global.css';
 
 function AppContent() {
   const { currentUser, projects, updateProject, addProject, updateProfile, setProjects, setUsers, setComments, setCollaborations } = useContext(AppContext);

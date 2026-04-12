@@ -3,7 +3,7 @@ import { AppContext } from '../context/AppContext';
 import ProjectCard from '../components/ProjectCard';
 import { getAvatarColor, initials } from '../utils/helpers';
 import { EditProfileModal } from '../components/Modals';
-import styles from '../styles/App.module.css';
+import styles from '../styles/Global.css';
 
 export default function Profile({ onOpenMilestone, onSaveProfile }) {
   const { currentUser, projects, users } = useContext(AppContext);

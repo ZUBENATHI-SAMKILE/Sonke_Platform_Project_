@@ -3,7 +3,7 @@ import { Sparkles } from 'lucide-react';
 import { AppContext } from '../context/AppContext';
 import ProjectCard from '../components/ProjectCard';
 import { getAvatarColor, initials } from '../utils/helpers';
-import styles from '../styles/App.module.css';
+import styles from '../styles/Global.css';
 
 export default function Feed({ onOpenAddProject, onOpenMilestone, onNavigateToProfile }) {
   const { currentUser, projects, users } = useContext(AppContext);

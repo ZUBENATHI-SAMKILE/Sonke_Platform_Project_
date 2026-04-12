@@ -894,4 +894,230 @@
   .rightSidebar {
     display: none;
   }
+  .feedHeader {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 14px;
+  }
+  .composeTop {
+    flex-direction: column;
+  }
+  .composeActions {
+    justify-content: flex-end;
+  }
+  .composeMeta {
+    width: 100%;
+  }
+  .composeMeta input,
+  .composeMeta select {
+    min-width: 100%;
+  }
+  .cardHeader {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .cardActions {
+    flex-wrap: wrap;
+  }
+  .commentInputRow {
+    flex-direction: column;
+  }
+  .commentSubmit {
+    width: 100%;
+  }
+  .celebGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .topbar {
+    padding: 0 14px;
+  }
+  .topbarNav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+  .topbarRight {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .authBox {
+    padding: 28px;
+  }
+  .authLogoText {
+    font-size: 20px;
+  }
+  .mainLayout {
+    padding: 16px 14px;
+  }
+  .profileHeader {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 18px;
+  }
+  .profileInfo {
+    width: 100%;
+  }
+  .profileStatsRow {
+    width: 100%;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .cardTitle {
+    font-size: 16px;
+  }
+  .cardDesc {
+    font-size: 13px;
+  }
+  .projectCard {
+    padding: 16px;
+  }
+  .actionBtn {
+    width: 100%;
+    justify-content: center;
+  }
+  .modal {
+    padding: 24px;
+    width: calc(100% - 24px);
+  }
+}
+
+@media (max-width: 540px) {
+  .topbar {
+    padding: 0 12px;
+  }
+  .topbarLogo {
+    gap: 8px;
+    font-size: 16px;
+  }
+  .topbarRight {
+    gap: 8px;
+  }
+  .mainLayout {
+    padding: 12px 10px;
+  }
+  .profileHeader {
+    padding: 24px;
+  }
+  .profileInfo h1 {
+    font-size: 22px;
+  }
+  .feedHeader {
+    gap: 12px;
+  }
+  .composeTop,
+  .cardHeader,
+  .commentInputRow,
+  .modalActions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .composeMeta {
+    gap: 8px;
+  }
+  .composeMeta input,
+  .composeMeta select,
+  .commentInputRow input {
+    width: 100%;
+  }
+  .projectCard {
+    padding: 14px;
+  }
+  .modal {
+    margin: 0 12px;
+  }
+  .btnGhost,
+  .btnPrimary {
+    width: 100%;
+  }
+  .authBox {
+    max-width: 100%;
+    padding: 22px;
+  }
+  .authTabs {
+    flex-wrap: wrap;
+  }
+  .authTab {
+    flex: 1 1 100%;
+    padding: 12px 10px;
+  }
+  .authForm {
+    gap: 12px;
+  }
+  .authLogoIcon {
+    width: 38px;
+    height: 38px;
+  }
+  .cardHeader {
+    gap: 10px;
+  }
+  .cardAvatar {
+    width: 34px;
+    height: 34px;
+  }
+  .cardMetaName {
+    font-size: 14px;
+  }
+  .cardMetaTime {
+    font-size: 11px;
+  }
+  .commentInputRow {
+    gap: 6px;
+  }
+}
+
+@media (max-width: 420px) {
+  .mainLayout {
+    padding: 10px 8px;
+  }
+  .topbar {
+    height: auto;
+    padding: 10px 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .topbarNav {
+    width: 100%;
+    justify-content: center;
+  }
+  .topbarRight {
+    width: 100%;
+    justify-content: center;
+  }
+  .authBox {
+    width: min(100%, 100%);
+    padding: 18px;
+    border-radius: 14px;
+  }
+  .authLogoText {
+    font-size: 18px;
+  }
+  .profileHeader {
+    padding: 18px;
+    gap: 14px;
+  }
+  .profileStatsRow {
+    gap: 10px;
+  }
+  .cardTitle {
+    font-size: 15px;
+  }
+  .cardDesc {
+    font-size: 12px;
+  }
+  .actionBtn {
+    width: 100%;
+  }
+  .badge,
+  .badgeStage,
+  .badgeSupport,
+  .badgeCompleted,
+  .badgeTech {
+    font-size: 11px;
+  }
 }

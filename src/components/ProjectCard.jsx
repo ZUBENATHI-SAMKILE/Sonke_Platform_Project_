@@ -3,7 +3,7 @@ import { Handshake, Target, MessageCircle, CheckCircle2 } from 'lucide-react';
 import { AppContext } from '../context/AppContext';
 import { commentService, collaborationService } from '../services/api';
 import { initials, getAvatarColor, timeAgo, escHtml } from '../utils/helpers';
-import styles from '../styles/App.module.css';
+import styles from '../styles/Global.css';
 
 export default function ProjectCard({ project, user, onUpdateMilestone, inProfile = false }) {
   const {
