@@ -1,4 +1,4 @@
-# Logs
+﻿# Logs
 logs
 *.log
 npm-debug.log*
@@ -33,6 +33,9 @@ dist-ssr
 # Dependencies
 node_modules/
 
+# Backend build output and local env
+backend/target/
+backend/.env
 
 # IDE
 .vscode/
